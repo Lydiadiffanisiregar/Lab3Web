@@ -24,50 +24,50 @@ section unordered-list, seperti berikut.
 
 <strong> Membuat Description List </strong> 
 Kemudian tambahkan kode untuk membuat description list setelah deklarasi unorderd-list.
-![foto](foto/foto4.png)
-![foto](foto/hasil4.png)
+![foto](foto/foto4.PNG)
+![foto](foto/hasil4.PNG)
 
 Selanjutnya lakukan eksperimen lain terkait list dan penggunaan atribut type pada list.
 <strong> Membuat Tabel </strong>
 Buat file baru dengan nama <strong> lab3_tabel.html </strong> seperti berikut.
-![foto](foto/foto5.png)
+![foto](foto/foto5.PNG)
 
 Kemudian selanjutnya tambahkan kode untuk membuat tabel sederhana seperti berikut:
-![foto](foto/foto6.png)
+![foto](foto/foto6.PNG)
 ini hasilnya
-![foto](foto/hasil6.png)
+![foto](foto/hasil6.PNG)
 
 <strong> Mengatur Margin dan Padding </strong>
 Untuk mengatur margin dan padding pada cel data, tambahkan atribut cellpadding dan cellspacing pada tag table.
-![foto](foto/foto7.png)
+![foto](foto/foto7.PNG)
 ini hasilnya
-![foto](foto/hasil7.png)
+![foto](foto/hasil7.PNG)
 
 <strong> Menggabungkan Sel Data </strong>
 Untuk menggabungkan sel data, gunakan atribut rowspan dan colspan. Atribut rowspan untuk
 menggabungkan baris (secara vertikal) dan colspan untuk menggabungkan kolom (secara
 horizontal).
-![foto](foto/foto8.png)
+![foto](foto/foto8.PNG)
 ini hasilnya
-![foto](foto/hasil8.png)
+![foto](foto/hasil8.PNG)
 
 <strong> Membuat Form </strong>
 Buat file baru dengan nama <strong> lab3_form.html </strong> seperti berikut.
-![foto](foto/foto9.png)
+![foto](foto/foto9.PNG)
 
 Kemudian selanjutnya tambahkan kode untuk membuat tabel sederhana seperti berikut:
-![foto](foto/foto10.png)
+![foto](foto/foto10.PNG)
 ini hasilnya
-![foto](foto/hasil10.png)
-![foto](foto/foto11.png)
+![foto](foto/hasil10.PNG)
+![foto](foto/foto11.PNG)
 ini hasilnya
-![foto](foto/hasil11.png)
+![foto](foto/hasil11.PNG)
 
 <strong> Menabahkan Style pada Form </strong>
 Agar tampilan form lebih menarik, bisa ditambahkan CSS seperti berikut.
-![foto](foto/foto12.png)
+![foto](foto/foto12.PNG)
 ini hasilnya
-![foto](foto/hasil.png)
+![foto](foto/hasil.PNG)
 
 # Pertanyaan dan Tugas
 1. Buatlah form yang menampilkan dropdown menu dan listbox dengan multiple selection.
