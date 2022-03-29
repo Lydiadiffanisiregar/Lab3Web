@@ -75,12 +75,8 @@ Saya akan membuat dropdownmenu dan 'listbox' dengan multiple selection menggunak
 1. Pertama-tama saya akan membuat file dengan nama Lab3_form-dropdown.html
 
 2. Setelah itu saya akan membuat kerangka htmlnya
-
-isi dari kerangka ada dropdown menu, kemudian h1, selanjutnya < form action="proses.php" method="post">, form ini menggunakan multiple selection. Gambarannya seperti berikut:
-![foto](foto/hasil11.PNG)
-
+![foto](foto/foto13.PNG)
 Dan ini kerangka css-nya
-![foto](foto/hasil11.PNG)
-
+![foto](foto/foto14.PNG)
 Dan inilah hasilnya
-![foto](foto/hasil11.PNG)
+![foto](foto/foto15.PNG)
