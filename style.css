@@ -1,0 +1,94 @@
+/* lab3_form-dropdown */
+* {margin: 2px; padding: 0;}
+ 
+body {
+background-color:white;
+font-family:Arial, Helvetica, sans-serif;
+color:black;
+ }
+
+ .menu-wrap {
+background-color: orange; 
+height:50px; 
+line-height:50px; 
+position:relative;
+width:100%;
+margin:auto;
+margin-top:auto;
+ }
+
+.menu-wrap ul {
+list-style:none;
+ }
+
+.menu-wrap ul li a {
+float:left; 
+width:150px; 
+display:block; 
+text-align:center; 
+color:black; 
+text-decoration:none; 
+text-transform:uppercase;
+ }
+
+.menu-wrap ul li a:hover {
+background-color:#20A759; 
+display:block;
+ }
+
+.menu-wrap ul li:hover ul {
+display:block;
+ }
+
+.menu-wrap ul ul {
+display:none; 
+list-style:none; 
+position:absolute; 
+background-color:#0b9097;
+left:150px; 
+top:50px; 
+width:150px;
+ }
+
+.menu-wrap ul ul li a {
+float:none; 
+display:block; 
+padding-left:30px; 
+text-align:left; 
+width:160px;
+ }
+
+.menu-wrap ul ul li a:hover {
+color:#fff;
+  }
+
+h1{
+   text-align: center;
+   color: red;
+}
+form fieldset{
+    border-style: solid;
+    border-color: black;   
+    padding: 60px;
+    background-color: yellow;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: absolute; 
+    right: 390px;
+    width: 35%; 
+}
+form p > label {
+    display: inline-block;
+    width: 120px;
+}
+form input[type="text"], 
+form textarea {
+    border: 1px solid #000000;
+}
+form input[type="submit"] {
+    border: 1px solid #ffffff;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 5px 15px;
+}

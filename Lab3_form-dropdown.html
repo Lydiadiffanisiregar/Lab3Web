@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Data Mahasiswa</title>
+</head>
+<body>
+    <div class="menu-wrap">
+        <ul>
+          <li><a href="https://ecampus.pelitabangsa.ac.id/">Home</a></li>
+          <li><a href="https://github.com/Lydiadiffanisiregar">Tutorial</a>
+            <ul>
+              <li><a href="https://github.com/Lydiadiffanisiregar/Lab1Web">HTML</a></li>
+              <li><a href="https://github.com/Lydiadiffanisiregar/Lab2Web">CSS</a></li>
+            </ul>
+        </ul>
+        </div>
+    <header>
+        <h1><b><p><img src="Logo_UPB.PNG" width="90" title="Logo Univeritas Pelita Bangsa">FORM MAHASISWA UPB</p></b></h1>
+    </header>
+    <form action="proses.php" method="post">
+        <fieldset>
+            <p>
+                <label for="nama">NAMA  :</label>
+                <input type="text" id="nama" name="nama">
+            </p>
+            <p>
+                <label for="nim">NIM    :</label>
+                <input type="text" id="nim" name="nim">
+            </p>
+            <p>
+                <label for="kelas">KELAS    :</label>
+                <input type="text" id="kelas" name="kelas">
+            </p>
+            <p>
+                <label for="prodi">PRODI    :</label>
+                <select name='prodi'size=1 Multiselect>
+                    <option value='' selected>Pilih Prodi</option>
+                    <option value='TEKNIK INDUSTRI'>TEKNIK INDUSTRI</option>
+                    <option value='TEKNIK SIPIL' >TEKNIK SIPIL</option>
+                    <option value='TEKNIK INFORMATIKA'>TEKNIK INFORMATIKA</option>
+                </select> 
+            <p>
+                <label for="angkatan">ANGKATAN  :</label>
+                <input type="angka" id="angkatan" name="angkatan">
+            </p>
+            <p>
+                <label for="alamat">ALAMAT  :</label>
+                <textarea id="alamat" name="alamat" cols="30" rows="3"></textarea>
+            </p>
+            <p>
+                <label>JENIS KELAMIN    :</label>
+                <input id="jk_l" type="radio" name="kelamin" value="L" /><label
+    for="jk_l">LAKI-LAKI</label>
+                <input id="jk_p" type="radio" name="kelamin" value="P" /><label
+    for="jk_p">PEREMPUAN</label>
+            </p>
+            <p><input type="submit" value="LOGIN"></p>
+            
+        </fieldset>
+    </form>    
+</body>
+</html>
